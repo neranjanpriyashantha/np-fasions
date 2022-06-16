@@ -9,17 +9,17 @@ export default function Footer() {
       width: '100%',
       position: 'fixed',
       bottom: '0px',
-      zIndex:'10',
-      textAlign:'center'
+      zIndex: '10',
+      textAlign: 'center'
     }}>
 
       <span style={{
         color: 'white',
-        marginTop:'20px'
+        marginTop: '20px'
       }}>
-        &copy; copyright neranjan 
+        &copy; copyright neranjan
       </span>
-      <div style={{float:'right',margin:'5px'}}> <FullScreenDialog  /></div>
+      <div style={{ float: 'right', margin: '5px' }}> <FullScreenDialog /></div>
     </div>
   )
 }

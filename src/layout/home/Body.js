@@ -10,7 +10,7 @@ export default function Body() {
   return (
     <div>
       <Slider />
-      <TagLine /> 
+      <TagLine />
       <ButtonSet />
 
     </div>

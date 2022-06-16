@@ -24,6 +24,7 @@ export default function Slider(pops) {
         <Carousel>
             {
                 items.map((item, i) => <Item key={i} item={item} />)
+
             }
         </Carousel>
     )
@@ -33,7 +34,15 @@ function Item(props) {
         <Paper>
             {/* <h2>{props.item.name}</h2>
             <p>{props.item.description}</p> */}
-            <div style={{ justifyContent: 'center', display: 'flex', height: '250px',marginTop:'10px' }}><img src={props.item.images} /></div>
+            <div
+                style={{
+                    justifyContent: 'center',
+                    display: 'flex',
+                    height: '250px',
+                    marginTop: '10px'
+                }}>
+                <img src={props.item.images} />
+            </div>
         </Paper>
     )
 }

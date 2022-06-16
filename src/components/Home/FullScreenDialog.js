@@ -30,7 +30,7 @@ export default function FullScreenDialog() {
 
     return (
         <div>
-           
+
             <Button variant="contained" style={{
                 backgroundColor: 'white',
                 color: 'teal',
